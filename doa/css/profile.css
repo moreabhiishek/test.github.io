@@ -1,0 +1,29 @@
+form#caspioform div {
+    display: block !important;
+}
+
+section[data-cb-name="cbTable"] {
+    width: 100%;
+}
+
+div.cb-hide-submit input.cbUpdateButton {
+    display:none;
+}
+
+
+.cb-authority-limit tr.cbResultSetTableHeader th:nth-last-child(2),
+.cb-authority-limit tr.cbResultSetTableHeader th:nth-last-child(3),
+.cb-authority-limit tr.cbResultSetTableHeader th:nth-last-child(4),
+.cb-authority-limit td.cbResultSetTableCell:nth-last-child(2),
+.cb-authority-limit td.cbResultSetTableCell:nth-last-child(3),
+.cb-authority-limit td.cbResultSetTableCell:nth-last-child(4) {
+    display:none;
+}
+
+.team_view_class tr.cbResultSetTableHeader th:nth-last-child(2),
+.team_view_class td.cbResultSetTableCell:nth-last-child(2)
+ {
+    display:none;
+}
+
+
